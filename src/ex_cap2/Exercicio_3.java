@@ -1,3 +1,5 @@
+package ex_cap2;
+
 public class Exercicio_3 {
     public static void main(String[] args){
         double gasto_alimentacao_diario = 50;

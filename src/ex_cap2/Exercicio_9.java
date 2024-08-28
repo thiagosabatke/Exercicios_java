@@ -1,3 +1,5 @@
+package ex_cap2;
+
 public class Exercicio_9 {
     public static void main(String[] args){
         double valor_carro, depr_carro, depr_anual,valor_invest,invest_valor, invest_anual;

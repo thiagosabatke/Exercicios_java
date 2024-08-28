@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_1",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_1",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_10",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_10",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_2",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_2",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_3",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_3",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_4",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_4",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_5",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_5",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_6",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_6",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_7",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_7",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_8",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_8",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio_9",
+            "request": "launch",
+            "mainClass": "ex_cap2.Exercicio_9",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio01_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio01_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio02_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio02_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio03_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio03_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio04_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio04_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio05_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio05_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio06_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio06_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        },
+        {
+            "type": "java",
+            "name": "Desafio07_principal",
+            "request": "launch",
+            "mainClass": "ex_cap3.conceito.Desafio07_principal",
+            "projectName": "Exercicios_java_6ba0f835"
+        }
+    ]
+}

@@ -1,3 +1,5 @@
+package ex_cap2;
+
 public class Exercicio_6 {
     public static void main(String[] args){
         double valor_litro_combustivel = 6.50;

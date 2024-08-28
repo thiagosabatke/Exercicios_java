@@ -1,3 +1,5 @@
+package ex_cap2;
+
 public class Exercicio_4 {
     public static void main(String[] args){
         double massa_kg = 10;

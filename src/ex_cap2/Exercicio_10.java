@@ -1,3 +1,5 @@
+package ex_cap2;
+
 public class Exercicio_10 {
     public static void main(String[] args){
         double salario,valor_salario_minimo,calcula_salario;

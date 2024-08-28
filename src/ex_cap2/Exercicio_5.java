@@ -1,3 +1,5 @@
+package ex_cap2;
+
 public class Exercicio_5 {
     public static void main(String[] args){
         
