@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exe13",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe13",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe11",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe11",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe10",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe10",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe09",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe09",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe08",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe08",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe07",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe07",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "Ex06",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.Ex06",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe06",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe06",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe05",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe05",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe04",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe04",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe03",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe03",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe02",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe02",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
+            "name": "exe01",
+            "request": "launch",
+            "mainClass": "ex_cap3.exercicios.exe01",
+            "projectName": "Exercicios_java_fb12d90e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
