@@ -3,60 +3,118 @@ import java.util.Scanner;
 
 public class Principal_String {
     public static void main(String[] args) {
-        String msgTitulo;
-        int tam;
-        msgTitulo = "Capítulo 5 - Manipulação de Strings";
+        // Desafio 01
+        String msgTitulo = "Capítulo 05 – Trabalhando com Strings";
         System.out.println(msgTitulo);
 
-        Scanner Obj_In = new Scanner(System.in);
-        Textos Obj_T = new Textos();
+        Textos textos = new Textos();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("---------- Verifica Tamanho do Texto ----------");
-        System.out.println("Digite um texto qualquer:");
-        msgTitulo = Obj_In.nextLine();
+        // Desafio 02
+        System.out.println("---------- Verifica tamanho da texto 1 ----------");
+        String texto = "Exemplo de texto";
+        System.out.println("Texto: " + texto);
+        System.out.println("O comprimento do texto é: " + textos.verifComprimento(texto));
 
-        tam = Obj_T.verificarComprimento(msgTitulo);
-        System.out.println("O texto tem " + tam + " caracteres");
+        // Desafio 03
+        System.out.println("---------- Verifica tamanho do texto 2 ----------");
+        System.out.println("Digite um texto:");
+        texto = scanner.nextLine();
+        System.out.println("O comprimento do texto é: " + textos.verifComprimento(texto));
 
-        System.out.println();
-        System.out.println("----------- Compara 2 Textos -------------------");
+        // Desafio 04
+        System.out.println("---------- Compara strings 1 ----------");
         System.out.println("Digite o primeiro texto:");
-        String T1 = Obj_In.nextLine();
+        String texto1 = scanner.nextLine();
         System.out.println("Digite o segundo texto:");
-        String T2 = Obj_In.nextLine();
-
-        boolean resultado = Obj_T.compararStrings(T1, T2);
-        if (resultado) {
+        String texto2 = scanner.nextLine();
+        boolean comparacao1 = textos.compararStrings1(texto1, texto2);
+        if (comparacao1) {
             System.out.println("Os textos são iguais.");
         } else {
             System.out.println("Os textos são diferentes.");
         }
 
-        System.out.println();
-        System.out.println("---- Concatenar 2 Textos -----");
+        // Desafio 05
+        System.out.println("---------- Compara strings 2 ignoreCase ----------");
         System.out.println("Digite o primeiro texto:");
-        String T3 = Obj_In.nextLine();
+        texto1 = scanner.nextLine();
         System.out.println("Digite o segundo texto:");
-        String T4 = Obj_In.nextLine();
-
-
-        String TextoCompleto = Obj_T.concatenarTextos(T3, T4);
-        System.out.println("Texto concatenado: " + TextoCompleto);
-
-        System.out.println("------------ Acessando Caracteres -------------");
-        Obj_T.acessaCaracteres("TESTE", 'E');
-
-
-        String texto2 = "aprendendo java";
-        texto2 = texto2.trim();
-        for (int i = 0; i < texto2.length(); i++) {
-            char posEspaco = texto2.charAt(i);
-            if (posEspaco == ' ') {
-                System.out.println("O espaço esta na posição" + i);
-            }
+        texto2 = scanner.nextLine();
+        boolean comparacao2 = textos.compararStrings2(texto1, texto2);
+        if (comparacao2) {
+            System.out.println("Os textos são iguais, ignorando maiúsculas e minúsculas.");
+        } else {
+            System.out.println("Os textos são diferentes.");
         }
 
+        // Desafio 06
+        System.out.println("---------- Concatenar strings 1 ----------");
+        System.out.println("Digite o primeiro texto:");
+        texto1 = scanner.nextLine();
+        System.out.println("Digite o segundo texto:");
+        texto2 = scanner.nextLine();
+        String resultadoConcatenacao1 = textos.concatenarStrings1(texto1, texto2);
+        System.out.println("Texto concatenado: " + resultadoConcatenacao1);
 
-        Obj_In.close();
+        // Desafio 07
+        System.out.println("---------- Concatenar strings 2 concat() ----------");
+        System.out.println("Digite o primeiro texto:");
+        texto1 = scanner.nextLine();
+        System.out.println("Digite o segundo texto:");
+        texto2 = scanner.nextLine();
+        String resultadoConcatenacao2 = textos.concatenarStrings2(texto1, texto2);
+        System.out.println("Texto concatenado: " + resultadoConcatenacao2);
+
+        // Desafio 08
+        System.out.println("---------- Quantidade de letras ----------");
+        System.out.println("Digite uma frase:");
+        String frase = scanner.nextLine();
+        System.out.println("Digite uma letra:");
+        char letra = scanner.next().charAt(0);
+        int quantidadeLetras = textos.contandoLetras(frase, letra);
+        System.out.println("A letra '" + letra + "' aparece " + quantidadeLetras + " vezes.");
+
+        // Desafio 09
+        System.out.println("---------- Quantidade de palavras ----------");
+        scanner.nextLine(); // Limpa o buffer
+        System.out.println("Digite um texto:");
+        texto = scanner.nextLine();
+        System.out.println("Digite uma palavra:");
+        String palavra = scanner.nextLine();
+        int ocorrencias = textos.contaPalavras(texto, palavra);
+        if (ocorrencias > 0) {
+            System.out.println("O texto possui " + ocorrencias + " ocorrências da palavra '" + palavra + "'.");
+            System.out.println("A palavra: " + palavra + " aparece" + ocorrencias + " vezes.");
+        } else {
+            System.out.println("O texto não possui a palavra '" + palavra + "'.");
+        }
+
+        // Desafio 10
+        System.out.println("---------- Alterar texto ----------");
+        System.out.println("Digite um texto:");
+        texto = scanner.nextLine();
+        System.out.println("Digite a palavra a ser trocada:");
+        String palavraAntiga = scanner.nextLine();
+        System.out.println("Digite a nova palavra:");
+        String palavraNova = scanner.nextLine();
+        String novoTexto = textos.alterarTexto(texto, palavraAntiga, palavraNova);
+        System.out.println("Novo texto: " + novoTexto);
+
+        // Desafio 11
+        System.out.println("---------- Criptografar texto ZENITPOLAR ----------");
+        System.out.println("Digite um texto para criptografar (ZENIT POLAR):");
+        texto = scanner.nextLine();
+        String textoCriptografadoZENITPOLAR = textos.criptografarZENITPOLAR(texto);
+        System.out.println("Texto criptografado: " + textoCriptografadoZENITPOLAR);
+
+        // Desafio 12
+        System.out.println("---------- Criptografar texto PERNANBUCO ----------");
+        System.out.println("Digite um texto para criptografar (PERNAMBUCO):");
+        texto = scanner.nextLine();
+        String textoCriptografadoPERNAMBUCO = textos.criptografarPERNAMBUCO(texto);
+        System.out.println("Texto criptografado: " + textoCriptografadoPERNAMBUCO);
+
+        scanner.close();
     }
 }
