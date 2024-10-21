@@ -38,5 +38,6 @@ public class Principal {
             default:
                 System.out.println("Opção inválida");
         }
+        input.close();
     }
 }

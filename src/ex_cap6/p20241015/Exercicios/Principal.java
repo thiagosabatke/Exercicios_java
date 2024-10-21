@@ -55,5 +55,6 @@ public class Principal {
                 System.out.println("Digite um numero válido");
                 break;
         }
+        sc.close();
     }
 }

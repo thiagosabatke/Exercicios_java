@@ -15,5 +15,6 @@ public class exe01
         {
             System.out.print(i + " ");
         }
+        input.close();
     }
 }

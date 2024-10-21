@@ -203,7 +203,8 @@ public class ListaExercicios {
 
         double media = soma / array.length;
         System.out.println("Media: " + media);
-
+        
+        sc.close();
     }
 
     public void exe10() {

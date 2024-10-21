@@ -246,6 +246,7 @@ public class Principal {
                 break;
 
         }
+        input.close();
     }
 }
 
